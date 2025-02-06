@@ -1,7 +1,7 @@
 # Collateral Allocation with Concentration Limits
 
 **Objective:**  
-Minimize total collateral posting cost while satisfying margin requirements for multiple CSAs and adhering to:  
+Minimize total collateral posting cost while satisfying margin requirements for multiple CSAs (Credit Support Annexes) and adhering to:  
 - **Haircut** (coverage) constraints  
 - **Collateral availability**  
 - **Concentration** limits  
