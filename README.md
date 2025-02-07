@@ -16,7 +16,6 @@ Minimize total collateral posting cost while satisfying margin requirements for 
    - **Haircuts** reduce effective coverage.  
    - **Availability** limits total units posted.  
    - **Concentration** caps how much of each CSA’s margin can come from a single asset type.  
-4. **PuLP Solver** finds an **optimal** (lowest-cost) allocation.
 
 ---
 
@@ -61,14 +60,3 @@ Minimize total collateral posting cost while satisfying margin requirements for 
 3. **View Allocation**  
    - Text output in the terminal.  
    - Stacked bar chart opens in your browser.
-
----
-
-## 4. Extensions
-
-- **Discrete Collateral**: Change variable type to integer (`LpInteger`).  
-- **Multicurrency**: Adjust `fx_rate_to_usd` and possibly add constraints by currency.  
-- **Dynamic Haircuts**: Implement matrix-based haircuts per CSA or rating.  
-- **Additional Objectives**: Combine cost-minimization with liquidity or other metrics.
-
----
